@@ -128,7 +128,7 @@ def main() -> None:
             # m = gdf_vehicle_positions.explore(m=m, name="Vehicle Positions")
             st_folium(m, feature_group_to_add=fg, use_container_width=True)
 
-            time.sleep(30)
+        time.sleep(30)
 
 
 if __name__ == "__main__":
